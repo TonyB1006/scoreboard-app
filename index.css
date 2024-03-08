@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container {
+    display: block;
+    border: 5px solid #269AB0;
+    width: 500px;
+    height: 600px;
+    padding-top: 20px;
+    padding-right: 10px;
+    margin-top: 200px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo {
+    width: 50%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.score-container {
+    border: none;
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.team-name {
+    color: #269AB0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.points-total-container {
+    background-color: black;
+    width: 170px;
+    height: 120px;
+    border-radius: 20px;
+    margin: 5px auto 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-points-container {
+    margin: 20px;
+}
+
+.points-total {
+    color: yellow;
+    font-size: 80px;
+}
+
+.add-points-btn {
+    width: 50px;
+    height: 50px;
+    background-color: #F29F1D;
+    border-radius: 40px;
+}
+
+.sub-point-btn {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+.reset-btn {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
