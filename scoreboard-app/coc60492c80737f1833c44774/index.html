@@ -1,0 +1,50 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+    <div class="main-container">
+        
+            <img id="logo" src="logo.jpg">
+        
+        <div class="middle">    
+                <div class="score-container">
+                    <h3 class="team-name">HOME</h3>
+                    <div class="points-total-container">
+                        <p class="points-total" id="home-points-total"></p>
+                    </div>
+                    <div class="add-points-container">
+                        <button class="add-points-btn" id="add-one-home" onclick="add1PointHome()"> +1 </button>
+                        <button class="add-points-btn" id="add-two-home" onclick="add2PointHome()">+2 </button>
+                        <button class="add-points-btn" id="add-three-home" onclick="add3PointHome()">+3 </button><br>
+                        <button class="sub-point-btn" id="sub-point-home" onclick="sub1PointHome()">-1</button><br>
+                        <button class="reset-btn" id= "reset-home" onclick="resetPointHome()">Reset to 0</button>
+                </div>
+        </div>
+        
+                <div class="middle">    
+                <div class="score-container">
+                    <h3 class="team-name">GUEST</h3>
+                    <div class="points-total-container">
+                        <p class="points-total" id="guest-points-total">00</p>
+                    </div>
+                    <div class="add-points-container">
+                        <button class="add-points-btn" id="add-one-guest" onclick="add1PointGuest() "> +1 </button>
+                        <button class="add-points-btn" id="add-two-guest" onclick="add2PointGuest()">+2 </button>
+                        <button class="add-points-btn" id="add-three-guest()" onclick="add3PointGuest()">+3 </button><br>
+                
+                        <button class="sub-point-btn" id="sub-point-guest" onclick="sub1PointGuest()">-1</button><br>
+                        <button class="reset-btn" id= "reset-guest" onclick="resetPointGuest() ">Reset to 0</button>
+                </div>
+        </div>
+        
+        
+        
+        
+        
+    </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
